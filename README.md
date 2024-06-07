@@ -5,7 +5,7 @@ This project propose a deep neural network for liver tumor segmentation using th
 
 ## Methodology:
 1. **Data Collection and Preprocessing**:
-   - The dataset used was collected here().
+   - The dataset was collected [MONAI:] (https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2).
    - Preprocess images (normalize intensity, resize) and create training, validation, and test sets.
    **Data Preparation**:
    **3D Slice Extraction:
@@ -21,11 +21,11 @@ This project propose a deep neural network for liver tumor segmentation using th
    **Outlier Detection and Removal:
      Detect and address outliers in pixel intensity values. Outliers can adversely affect model training and segmentation accuracy.
    **Normalization and Standardization:
-     Normalize pixel intensities to a consistent range (e.g., [0, 1]).
+     Normalize pixel intensities to a consistent range [0, 1].
      Standardize features to have zero mean and unit variance.
    **Class Imbalance Handling:
      Address the imbalance between tumor and non-tumor pixels.
-     Oversample the minority class (tumor) or use weighted loss functions during training.
+     Use weighted loss functions during training.
 3. **Model Training**:
    - Initialize U-Net architecture with pretrained weights (if available).
    - Train the model using liver tumor images and corresponding masks.
