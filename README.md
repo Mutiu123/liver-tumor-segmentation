@@ -5,7 +5,7 @@ This project propose a deep neural network for liver tumor segmentation using th
 
 ## Methodology:
 1. **Data Collection and Preprocessing**:
-   - The dataset was collected [MONAI:] (https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2).
+   - The dataset was collected [MONAI:](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2).
    - Preprocess images (normalize intensity, resize) and create training, validation, and test sets.
    **Data Preparation**:
    **3D Slice Extraction:
