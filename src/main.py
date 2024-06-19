@@ -5,6 +5,7 @@ from monai.networks.layers import Norm
 from train import train
 from monai.losses import DiceLoss
 
+# data and model directories
 data_dir = 'C:/Users/adegb/Desktop/Computer Vision Projects/Liver-Tumor-Segmentation/dataset'
 model_dir = 'C:/Users/adegb/Desktop/Computer Vision Projects/Liver-Tumor-Segmentation/model'
 data_in = prepprocess(data_dir, cache=True)
