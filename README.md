@@ -71,6 +71,9 @@ This project propose a deep neural network for liver tumor segmentation using th
 
 4. **Multi-Organ Segmentation**:
 
+ **Demo results:**
+![The System Demo](https://github.com/Mutiu123/Agrivision/blob/main/demo/demo.png)
+
 
 
 
