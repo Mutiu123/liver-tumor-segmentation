@@ -54,6 +54,9 @@ This project propose a deep neural network for liver tumor segmentation using th
    - Integrate the model into existing CAD systems.
    - Enhance diagnostic accuracy and reduce human error.
 
+ **Demo results:**
+![The System Demo](https://github.com/Mutiu123/liver-tumor-segmentation/blob/main/demo/demo.png)
+
 
 ## Future Directions:
 1. **Multi-Modal Fusion**:
@@ -71,8 +74,7 @@ This project propose a deep neural network for liver tumor segmentation using th
 
 4. **Multi-Organ Segmentation**:
 
- **Demo results:**
-![The System Demo](https://github.com/Mutiu123/Agrivision/blob/main/demo/demo.png)
+
 
 
 
